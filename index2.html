@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		
+		body{
+			font-family: arial;
+			padding: 10px;
+			background: #f1f1f1;
+		}
+
+		/*Header / Blog Title */
+		.header{
+			padding: 30px;
+			text-align: center;
+			background: white;
+		}
+
+		.header h1{
+			font-size: 50px;
+		}
+
+		/* Style the navigation bar */
+		.navbar{
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		/* Style yhe navbar links */
+		.navbar a{
+			float: right;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		/* Change color on hover */
+		.navbar a:hover{
+			background-color: #ddd;
+			color: black;
+		}
+
+		/* Create two unequal colums that floats next to each other */
+		/*Left column */
+		.leftcolum{
+			float: left;
+			width: 75%;
+		}
+
+		/*Right column*/
+		.rightcolumn{
+			float: left;
+			width: 25%;
+			background-color: #f1f1f1;
+			padding-left: 20px;
+		}
+
+		/* Fake image */
+		.fakeimg{
+			background-color: #aaa;
+			width: 100%;
+			padding: 20px;
+		}
+
+		/* Add a card effect for article */
+		.card{
+			background-color: white;
+			padding: 20px;
+			margin-top: 20px;
+		}
+
+		/*  Clear floats after the columns */
+		.row::after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* Footer */
+		.footer{
+			padding: 20px;
+			text-align: center;
+			background: #ddd;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1> My Website <br>BUAH-BUAHAN</h1>
+		<p>Resize the browser window to see effect.</p>
+	</div>
+
+	<div class="navbar">
+		<a href="#" style="float: left;">Link</a>
+		<a href="#">ABOUT</a>
+		<a href="Form2gb.html">FROM2GB</a>
+		<a href="index2.html">HOME</a>
+	</div>
+
+	<div class="row">
+		<div class="leftcolum">
+			<div class="card">
+				<h2>PROMOSI</h2>
+				<h5><b>AYO HIDUP SEHAT DENGAN MAKAN BUAH-BUAHAN SETIAP HARI</b></h5>
+				<img src="buah.jpg" style="height: 500px; width: 900px;">
+				<p>Buah-buahan ini memiliki rasa yang menyegarkan,semua jenis buah juga memiliki segudang manfaat untuk kesehatan.</p>
+				- Ayo makan buah buah setiap hari!<br>
+				- Marilah kita sempurnakan menu makan bergizi kita dengan makan buah!<br>
+				- Sudahkah kamu makan buah untuk hari ini!<br>
+				-Ayo makan buah!Buah enak kaya akan Kalium!<br>
+				<br>
+
+				<img src="kui.jpg" style="height: 500px; width: 900px;">
+				<p>Rasanya ada yang kurang ketika kita tidak memakan buah buahan,sebab buah buahan merupakan makanansehat untuk di konsumsi setiap harii,buah buahan juga adalah bentuk kenyamanan paling primitif 
+				<br>
+
+				<br><img src="oii.jpg" style="height: 500px; width: 900px;">
+				<p>Humor membuat kita tetap hidup.Humor dan makanan.Jangan lupakan makanan sehat ini,Kamu bisa pergi seminggutanpa tertawa,tapi tidak dengan makanan sehat ini.
+			</div>
+		</div>
+		<div class="rightcolumn">
+			<div class="card">
+				<h2>kontak</h2>
+				<a href="https://api.whatsapp.com/send/?phone=6282130104961&text&type=phone_number&app_absent=0" target="_blank">
+				<img src="th.jpg" style="height: 50px;">
+				</a>
+			</div>
+			<div class="card">
+				<img src="pepe.jpg" style="height: 150px">
+				<img src="itu.jpg" style="height: 150px">
+				<img src="ini.jpg" style="height: 150px">
+			</div>
+			<div class="card">
+				
+				<p><b>AYO TUMBUHKAN HIDUP SEHAT DENGAN MENGONSUMSI MAKAN BUAH-BUAHAN AGAR SEHAT!!!</b></p>
+				<b>follow me:</b>
+				<br>
+				<a href="https://www.tiktok.com/@depiisapitrii?_t=8mxnBXyRdtB&_r=1" target="_blank">
+				<img src="oll.jpg" style="height: 48px;">
+			    </a>
+				<a href="https://www.instagram.com/dxlwviaw?igsh=YzAwZjE1ZTI0Zg==" target="_blank">
+				<img src="dev.jpg" style="height: 50px;">
+			    </a>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h2>Footer</h2>
+	</div>
+</body>
+</html>
